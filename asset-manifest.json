@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.edce8bdb.chunk.css",
+    "main.js": "/static/js/main.b76e0c7a.chunk.js",
+    "main.js.map": "/static/js/main.b76e0c7a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.50de8aa0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.50de8aa0.js.map",
+    "static/js/2.58ad9258.chunk.js": "/static/js/2.58ad9258.chunk.js",
+    "static/js/2.58ad9258.chunk.js.map": "/static/js/2.58ad9258.chunk.js.map",
+    "static/js/3.208510be.chunk.js": "/static/js/3.208510be.chunk.js",
+    "static/js/3.208510be.chunk.js.map": "/static/js/3.208510be.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.edce8bdb.chunk.css.map": "/static/css/main.edce8bdb.chunk.css.map",
+    "static/js/2.58ad9258.chunk.js.LICENSE.txt": "/static/js/2.58ad9258.chunk.js.LICENSE.txt",
+    "static/media/book.bee50bf5.png": "/static/media/book.bee50bf5.png",
+    "static/media/questionnaire.935d3256.jpeg": "/static/media/questionnaire.935d3256.jpeg",
+    "static/media/index.css": "/static/media/w95fa.fb426abf.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.50de8aa0.js",
+    "static/js/2.58ad9258.chunk.js",
+    "static/css/main.edce8bdb.chunk.css",
+    "static/js/main.b76e0c7a.chunk.js"
+  ]
+}
