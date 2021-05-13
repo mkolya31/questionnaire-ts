@@ -1,26 +1,42 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { FC, useState } from 'react'
+import styled from 'styled-components'
+import { HashRouter as Router, Switch, Route } from 'react-router-dom'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Welcome from './components/welcome/welcome'
+import { APP_STAGES_ROUTES } from './utils/types/enums'
+import Questionnaire from './components/questionnaire/questionnaire'
+import Summary from './components/summary/summary'
+
+const AppContainer = styled.div`
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: ${(props) => props.theme.colors.teal};
+`
+
+const App: FC = () => {
+    const [questionsAmount, setQuestionsAmount] = useState<number>(10)
+
+    return (
+        <AppContainer>
+            <Router>
+                <Switch>
+                    <Route exact path={APP_STAGES_ROUTES.WELCOME}>
+                        <Welcome />
+                    </Route>
+                    <Route path={APP_STAGES_ROUTES.QUESTIONNAIRE}>
+                        <Questionnaire amount={questionsAmount} />
+                    </Route>
+                    <Route path={APP_STAGES_ROUTES.SUMMARY}>
+                        <Summary amount={questionsAmount} />
+                    </Route>
+                </Switch>
+            </Router>
+        </AppContainer>
+    )
 }
 
-export default App;
+export default App
