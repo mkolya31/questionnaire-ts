@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.edce8bdb.chunk.css",
-    "main.js": "/static/js/main.b76e0c7a.chunk.js",
-    "main.js.map": "/static/js/main.b76e0c7a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.50de8aa0.js",
-    "runtime-main.js.map": "/static/js/runtime-main.50de8aa0.js.map",
-    "static/js/2.58ad9258.chunk.js": "/static/js/2.58ad9258.chunk.js",
-    "static/js/2.58ad9258.chunk.js.map": "/static/js/2.58ad9258.chunk.js.map",
-    "static/js/3.208510be.chunk.js": "/static/js/3.208510be.chunk.js",
-    "static/js/3.208510be.chunk.js.map": "/static/js/3.208510be.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.edce8bdb.chunk.css.map": "/static/css/main.edce8bdb.chunk.css.map",
-    "static/js/2.58ad9258.chunk.js.LICENSE.txt": "/static/js/2.58ad9258.chunk.js.LICENSE.txt",
-    "static/media/book.bee50bf5.png": "/static/media/book.bee50bf5.png",
-    "static/media/questionnaire.935d3256.jpeg": "/static/media/questionnaire.935d3256.jpeg",
-    "static/media/index.css": "/static/media/w95fa.fb426abf.woff2"
+    "main.css": "/questionnaire-ts/static/css/main.d1700196.chunk.css",
+    "main.js": "/questionnaire-ts/static/js/main.b76e0c7a.chunk.js",
+    "main.js.map": "/questionnaire-ts/static/js/main.b76e0c7a.chunk.js.map",
+    "runtime-main.js": "/questionnaire-ts/static/js/runtime-main.7ca72ffa.js",
+    "runtime-main.js.map": "/questionnaire-ts/static/js/runtime-main.7ca72ffa.js.map",
+    "static/js/2.5cce06c2.chunk.js": "/questionnaire-ts/static/js/2.5cce06c2.chunk.js",
+    "static/js/2.5cce06c2.chunk.js.map": "/questionnaire-ts/static/js/2.5cce06c2.chunk.js.map",
+    "static/js/3.208510be.chunk.js": "/questionnaire-ts/static/js/3.208510be.chunk.js",
+    "static/js/3.208510be.chunk.js.map": "/questionnaire-ts/static/js/3.208510be.chunk.js.map",
+    "index.html": "/questionnaire-ts/index.html",
+    "static/css/main.d1700196.chunk.css.map": "/questionnaire-ts/static/css/main.d1700196.chunk.css.map",
+    "static/js/2.5cce06c2.chunk.js.LICENSE.txt": "/questionnaire-ts/static/js/2.5cce06c2.chunk.js.LICENSE.txt",
+    "static/media/book.bee50bf5.png": "/questionnaire-ts/static/media/book.bee50bf5.png",
+    "static/media/questionnaire.935d3256.jpeg": "/questionnaire-ts/static/media/questionnaire.935d3256.jpeg",
+    "static/media/index.css": "/questionnaire-ts/static/media/w95fa.fb426abf.woff2"
   },
   "entrypoints": [
-    "static/js/runtime-main.50de8aa0.js",
-    "static/js/2.58ad9258.chunk.js",
-    "static/css/main.edce8bdb.chunk.css",
+    "static/js/runtime-main.7ca72ffa.js",
+    "static/js/2.5cce06c2.chunk.js",
+    "static/css/main.d1700196.chunk.css",
     "static/js/main.b76e0c7a.chunk.js"
   ]
 }
