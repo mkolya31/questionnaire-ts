@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Demo
 View demo on [github pages](https://mkolya31.github.io/questionnaire-ts/#/).
 
 # Getting Started with Create React App
